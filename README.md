@@ -2,6 +2,8 @@
 
 This Emacs mode lets you traverse the Tree Sitter syntax tree.
 
+![demo.gif](demo.gif)
+
 This package uses the built-in `treesit` package available starting from Emacs 29.
 
 This package supports [multiple-cursors](https://github.com/magnars/multiple-cursors.el).
