@@ -10,10 +10,15 @@ This package supports [multiple-cursors](https://github.com/magnars/multiple-cur
 
 ## Installation
 
-It is recommended to use `use-package`.
+This package is not on any ELPA yet. You must use this repository as a package. You can use the following steps.
+
+1. Create a directory `~/.emacs.d/site-lisp` if it does not already exist.
+2. Clone the repository in this directory.
+3. Add the following to your configuration file.
 
 ```lisp
 (use-package ts-movement
+  :load-path "site-lisp/ts-movement"
   :hook
   (bash-ts-mode-hook . ts-movement-mode)
   (c++-ts-mode-hook . ts-movement-mode)
