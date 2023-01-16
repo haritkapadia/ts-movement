@@ -4,7 +4,7 @@ This Emacs mode lets you traverse the Tree Sitter syntax tree.
 
 This package uses the built-in `treesit` package available starting from Emacs 29.
 
-This package supports [https://github.com/magnars/multiple-cursors.el](multiple-cursors).
+This package supports [multiple-cursors](https://github.com/magnars/multiple-cursors.el).
 
 ## Installation
 
@@ -34,4 +34,4 @@ It is recommended to use `use-package`.
   (yaml-ts-mode-hook . ts-movement-mode))
 ```
 
-By default, the package uses the `C-c .` binding. If you have [https://github.com/abo-abo/hydra](hydra) installed, `C-c .` will be bound to `tsm/hydra/body`.
+By default, the package uses the `C-c .` binding. If you have [hydra](https://github.com/abo-abo/hydra) installed, `C-c .` will be bound to `tsm/hydra/body`.
